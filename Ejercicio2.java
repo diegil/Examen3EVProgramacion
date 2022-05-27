@@ -51,7 +51,7 @@ public class Ejercicio2 {
 					}
 					if (contador == localidades.size()) {								
 						localidades.add(localidad);
-					}else {
+					}else if (contador == localidades.size() - 1){
 						localidades.get(i).setnDivorcios(localidades.get(i).getnDivorcios() + divorcios);
 					}
 				}
